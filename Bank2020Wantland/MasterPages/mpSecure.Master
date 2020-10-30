@@ -1,0 +1,115 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mpSecure.Master.cs" Inherits="Bank2020Wantland.MasterPages.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <style type="text/css">
+        .auto-style1 {
+            width: 560px;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            color: darkslategray;
+            padding: 0;
+        }
+
+        .header {
+            background: #F5F5F5;
+            width: 100%;
+        }
+
+        #button {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+    </style>
+    <link rel="stylesheet" href="StyleSheet.css" />
+
+</head>
+<body>
+    <%--Header--%>
+    <form id="form1" runat="server">
+        <div>
+            <table width="100%">
+                <tr>
+                    <td>
+                        <table style="font-family: Arial; color: darkslategray;" class="header">
+                            <tr>
+                                <td>
+                                    <div>
+                                        <table width="100%">
+                                            <tr>
+                                                <td>
+                                                    <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/Pages/MainPage.aspx"/><img src="../img/Bank.png" style="width: 6%;" align="left"</asp:LinkButton><h1 style="font-family: Arial; color: darkslategray;"><b>Wantland Bank</b></h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+
+                                <%-- Welcome User--%>
+                                <td style="font-family: Arial; color: darkslategray;">Welcome,
+                                  </td><td><asp:Label ID="userLbl" runat="server"></asp:Label></td>
+                                </td>
+                                
+                            </tr>
+                        </table>
+
+                        <%--Button Links--%>
+                        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+                        <div class="w3-bar w3-border">
+                            <asp:LinkButton CssClass="w3-bar-item w3-button" ID="homeBtn" runat="server" Font-Bold="true" Font-Overline="false" Font-Size="Medium" ForeColor="darkslategray" PostBackUrl="~/Pages/MainPage.aspx">Home</asp:LinkButton>
+                            <asp:LinkButton CssClass="w3-bar-item w3-button" ID="manageUserBtn" runat="server" Font-Bold="true" Font-Overline="false" Font-Size="Medium" ForeColor="darkslategray" PostBackUrl="~/EmployeePages/ManageUser.aspx">Manage User</asp:LinkButton>
+                            <asp:LinkButton CssClass="w3-bar-item w3-button" ID="manageCustBtn" runat="server" Font-Bold="true" Font-Overline="false" Font-Size="Medium" ForeColor="darkslategray" PostBackUrl="~/EmployeePages/ManageCustomer.aspx">Manage Customers</asp:LinkButton>
+                            <asp:LinkButton CssClass="w3-bar-item w3-button" ID="manageLoansBtn" runat="server" Font-Bold="true" Font-Overline="false" Font-Size="Medium" ForeColor="darkslategray" PostBackUrl="~/EmployeePages/ManageLoans.aspx">Manage Loans</asp:LinkButton>
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:ContentPlaceHolder ID="cphMain" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                
+            </table>
+        </div>
+    </form>
+
+    <%--Footer--%>
+    <footer>
+        <style>
+            .footer {
+                text-align: left;
+                background-color: lightblue;
+                padding-left: 20px;
+            }
+        </style>
+
+        <div class="footer">
+            <p style="font-family: Arial; color: darkslategray;">
+                <b>Wantland Bank</b><br />
+                325 W Cardinal Blvd Louisville, KY 40208<br />
+                (555) 555-5555
+                
+            </p>
+
+            <p style="font-family: Arial; color: darkslategray;">© 2020 Wantland Bank. All rights reserved.</p>
+        </div>
+
+    </footer>
+</body>
+</html>
+

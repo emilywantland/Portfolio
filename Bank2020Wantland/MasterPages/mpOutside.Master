@@ -1,0 +1,118 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mpOutside.Master.cs" Inherits="Bank2020Wantland.MasterPages.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <style type="text/css">
+        .container {
+            position: relative;
+            text-align: center;
+            color: darkslategray;
+            padding: 0;
+        }
+
+        .header {
+            background: #F5F5F5;
+            width: 100%;
+        }
+
+        #button {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        input[type=submit] {
+            background-color: lightblue;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+            input[type=submit]:hover {
+                background-color: steelblue;
+            }
+    </style>
+
+</head>
+<body>
+    <%-- Header--%>
+    <form id="form1" runat="server">
+        <div>
+            <table width="100%">
+                <tr>
+                    <td>
+                        <table style="font-family: Arial; color: darkslategray;" class="header">
+                            <tr>
+                                <td>
+                                    <div>
+                                        <table width="100%">
+                                            <tr>
+                                                <td>
+                                                    <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/Pages/MainPage.aspx"><img src="../img/Bank.png" style="width: 6%;" align="left"</asp:LinkButton><h1 style="font-family: Arial; color: darkslategray;"><b>Wantland Bank</b></h1>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <asp:Button ID="BtnLoginMaster" runat="server" Text="Log In" OnClick="BtnLoginMaster_Click" align="right" />
+                                </td>
+                            </tr>
+                        </table>
+
+                        <%--Button Links--%>
+                        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+                        <div class="w3-bar w3-border">
+                            <asp:LinkButton CssClass="w3-bar-item w3-button" ID="homeBtn" runat="server" Font-Bold="true" Font-Overline="false" Font-Size="Medium" ForeColor="darkslategray" PostBackUrl="~/Pages/MainPage.aspx">Home</asp:LinkButton>
+                            <asp:LinkButton CssClass="w3-bar-item w3-button" ID="contactBtn" runat="server" Font-Bold="true" Font-Overline="false" Font-Size="Medium" ForeColor="darkslategray" PostBackUrl="~/Pages/ContactPage.aspx">Contact Us</asp:LinkButton>
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:ContentPlaceHolder ID="cphMain" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                </tr>
+
+            </table>
+        </div>
+    </form>
+
+    <%--Footer--%>
+    <footer>
+        <style>
+            .footer {
+                text-align: left;
+                background-color: lightblue;
+                padding-left: 20px;
+            }
+        </style>
+
+        <div class="footer">
+            <p style="font-family: Arial; color: darkslategray;">
+                <b>Wantland Bank</b><br />
+                325 W Cardinal Blvd Louisville, KY 40208<br />
+                (555) 555-5555
+                
+            </p>
+
+            <p style="font-family: Arial; color: darkslategray;">© 2020 Wantland Bank. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
