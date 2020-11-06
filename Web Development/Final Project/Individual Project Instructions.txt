@@ -1,0 +1,14 @@
+What do I need to include in the project?
+1. Two master pages: one for the pages available to public, one for secure pages (can only access after log in).
+2. Log in page: use the user data (user name and password) stored in tblLastNameUser to log in and add adequate validation controls. Show the username and password on the page for grading. 
+3. Secure page: To show that you are logged in.
+4. Three pages: Manage User, Manage Customer, Manage Loans. Make sure add adequate validation controls.
+	• Manage User Page: use formview to manage user information, including editing, deleting, adding, etc. 
+	• Manage Customer Page: use gridview to show customer information and formview to manage data. 
+	• Manage Loan Page (have not covered in current video yet): use dropdown list to select customer, use label to show monthly payment, use gridview to show loan information, use formview to edit loan information, use gridview to show amortization schedule. 
+5. SQL database: includes at least three tables: tblLastNameUser; tblLastNameCustomer; tblLastNameLoan, link the primary key and foreign key between tblLastNameCustomer and tblLastNameLoan. Add at least 5 “fake” data in each table. 
+6. CSS: Add adequate CSS features to make the application authentic.
+7. User Experience: Make sure you make the application easy and pleasing to use for users. 
+8. Something New: Add something new in addition to the features you learned in class. Also, I encourage you add more pages to your application, such as: About us page, contact us page, social media, etc.
+
+P.S. CSS, UI, Something new are not included in the class demonstration, those are expected to be added by you. 
