@@ -1,0 +1,13 @@
+Purpose: This assignment explores the use of parallel arrays and range matching.
+
+This assignment asks you to re-solve Program 2 using parallel arrays and range matching loop(s) (similar to what is shown in the Chapter 6 PowerPoint slides) to perform the decision making for the marginal tax and income tax due. Use your instructor's solution to Program 2 Version 3 as your starting point, attached here and renamed for Prog3. After you extract the Prog3 folder, delete the original zip file (keeping only the Prog3 project folder) to avoid confusion with the file you will create and submit as your solution later. Nothing named Prog3-Start should remain.
+
+In the starting code, keep the decision logic for assigning the income thresholds the same (in the CheckedChanged events for the radio buttons). You are only rewriting the code that performs the decision making for the marginal tax and income tax due. Remember, Program 2 used data provided here:
+
+https://www.fool.com/taxes/2018/12/10/what-are-the-2019-tax-brackets.aspx
+
+The above article from Motley Fool explains how the current Federal income tax rates work.
+
+For this assignment, you have to decide whether to use the lower limits or the higher limits for each income range when constructing your range array. The code in the PowerPoint slides was written to work with lower limits. If you choose to use the higher limits from each range instead, you will have to modify the code as discussed on p. 240 of the text. The Program 2 Version 3 solution that you are starting from mainly used the upper limits in its decision logic (except for the highest tax rate tier).
+
+Be sure to add appropriate comments in your code, including your Grading ID (not name nor student ID), program number, due date, and course section. Each variable used in your program needs a comment describing its purpose. These requirements are expected for every program and are listed in the syllabus. Preconditions and postconditions are not expected yet, as we've not covered them in class. However, comments are expected for important sections of code, including event handlers.
