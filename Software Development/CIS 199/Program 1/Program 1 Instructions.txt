@@ -1,0 +1,29 @@
+Purpose: This assignment explores the use of variables and simple arithmetic.
+
+Create an interactive Windows Console (Chapter 2) or Windows Forms (Chapter 3) application that will be used for estimating the materials and labor costs for our carpet sales and installation company. Our calculations will be similar to those in the article found here:
+
+https://www.improvenet.com/r/carpet-calculator
+
+To perform the calculation, you'll need to ask the user for some information about the room being carpeted These will be your inputs:
+
+    Max width of the room (in feet). This value might be a floating point number. Use type double to represent it.
+    Max length of the room (in feet). This value might be a floating point number. Use type double to represent it.
+    Price (per sqare yard) of the carpet. This value might be a floating point number. Use type double to represent it.
+    Number of layers of padding to use. This value should be an integer, either 1 or 2. Use type int to represent it. We won't be able to validate this value yet but ask the user to enter either 1 layer or 2 layers.
+    First room? This value should be an integer, either 0 or 1. Use type int to represent it. 1 means this is the first room in the bid. 0 means this is one of the later rooms in the bid. Our company charges an extra $100.00 of labor for the first room in the job being bid. Remember to create a named constant instead of hard coding this price.
+
+Carpet and padding are typically priced by the square YARD (not in square feet). Since our input for the size of the room is in feet, when you multiply the width and length to come up with area, it will be in square feet. Divide by 9 to get it in square yards, instead. Create a named constant for this conversion, too, Output the square yards needed with 1 digit of precision.
+
+Once we know how many square yards are needed, we can calculate the materials costs. For carpet and padding, we include 10% extra in our estimates for waste. This will leave the client a little left over that can be used to make repairs later, for example. Calculate the cost of the carpet, including the excess. Be sure to create a named constant for the waste percentage. Calculate the cost of the padding, including the excess. Our company charges the client $2.75 per square yard for each layer of padding. Remember to create a named constant instead of hard coding this price. Display the carpet cost and the padding cost (using currency formatting).
+
+For the labor costs, we include an extra $100.00 for the first room on the job. For the second room and later in a job being estimated, no extra fee is charged. Our company charges the client $4.50 in labor for every square yard of carpet that needs to be installed. The excess material is not included in the labor costs. Be sure to create a named constant instead of hard coding this price. Display the labor cost (using currency formatting).
+
+The total cost of the job will be sum of the costs of the carpet, padding, and labor. Display the total cost (using currency formatting).
+
+A version of the program as a Console application appears below.
+
+If you want to make the numbers align on the decimal point as in my example, you'll need to use field widths in additional to format codes when formatting. For example, the placeholder shown below applies currency formatting and output in a field width of 10 characters:
+
+{carpetCost,10:C}
+
+If you create a GUI application instead, you'll use labels for the prompts and outputs, textboxes for the inputs, and a button to initiate the process of calculating the estimate.
