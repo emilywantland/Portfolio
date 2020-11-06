@@ -1,0 +1,9 @@
+Create and test a Windows Forms application that calculates and displays several geometric values of a sphere given its radius. The user will enter the sphere's radius (as a double) and the application will calculate and display the sphere's diameter, surface area, and volume. Specifically, the application must have:
+
+A Form titled "Lab 3". Remember, the form's Text property controls the information displayed in the form's title bar. Change the form's Size to 400 x 400 pixels.
+A Label titled "Radius of sphere:" next to a TextBox that will gather this information from the user.
+Labels for "Diameter", "Surface Area", and "Volume" next to output Labels. Remember, for output labels, you'll need to change the AutoSize and BorderStyle properties (as demonstrated in class).
+A Button titled "Calculate" with an event handler (as in Figure 3-10 of your text) that calculates the sphere's diameter, surface area, and volume using the formulas given below. Display these values with 2 digits of precision. This button should also be designated as the form's AcceptButton so that it will respond when the user presses enter. Remember, this is a property of the form not of the button.
+A PictureBox in both the top-left and bottom-right of the form with the following image:
+
+As we learned in our In-Class Exercise, the Math library has a named constant already defined for p, Math.PI. The Math library also has a method that can be used to raise a value to an exponent (as in r2 or r3), Math.Pow(). If you want to calculate be, use Math.Pow(b, e) , where b and e are both double values.
