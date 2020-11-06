@@ -1,0 +1,10 @@
+Create and test a Windows Forms application that implements a GUI-based solution to Programming Exercise 6-7 from p. 261 of the text. The Nimble Fingers Typing School assigns grades based on words typed per minute, as shown in the table below.
+
+Words typed 	Grade
+0–15 	F
+16–30 	D
+31–50 	C
+51–75 	B
+76 and over 	A
+
+Create a GUI application that allows a user to enter a student’s number of words typed. Make sure the user's input is valid, otherwise prompt them to correct their mistake using a MessageBox. The output is the letter grade earned by the student. The design of the application's interface is up to you. You must use parallel arrays and a range matching loop (not simply a series of if/else if statements), as in the class example from the PowerPoint presentation from Chapter 6.
