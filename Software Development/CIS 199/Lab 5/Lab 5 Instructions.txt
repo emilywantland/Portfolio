@@ -1,0 +1,5 @@
+Write an application that solves Programming Exercise 5-4 from the text. The application continuously prompts the user for a series of daily high temperatures (as integers) until the user enters a sentinel value of 999. Valid temperatures range from -20 through 130 Fahrenheit (inclusive). When the user enters a valid temperature, add it to a total; when the user enters an invalid temperature, display the error message:
+
+"Valid temperatures range from -20 to 130. Please reenter temperature."
+
+Before the program ends, display the number of temperatures entered and the average temperature (with 1 digit of precision).
