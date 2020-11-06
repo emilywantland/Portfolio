@@ -1,0 +1,12 @@
+Create and test a Windows Forms application that make simple admission decisions for a hypothetical university based on the rules given below. The user enters a numeric high school grade point average (for example, 3.2) and an admission test score. Display the message “Accept” if the student meets either of the following requirements:
+
+    A grade point average of 3.0 or higher and an admission test score of at least 60
+    A grade point average of less than 3.0 and an admission test score of at least 80
+
+If the student does not meet either of the qualification criteria, display “Reject”.
+
+In addition to displaying the accept/reject messages for each application, keep a running total of each application that was accepted or rejected. Display the running totals on the form. This will require using field variables declared at the top of the form class.
+
+The entered GPA will be a floating-point value and the admission test score will be a non-negative integer. All controls should be renamed from the defaults (label1, button1, etc.) to have descriptive variable names.
+
+For this lab and all that follow, parsing should now be done using TryParse as shown in the Chapter 4 PowerPoint slides.
