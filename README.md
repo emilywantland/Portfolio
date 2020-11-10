@@ -41,7 +41,7 @@ This folder contains an up-to-date copy of my professional resume.
 This folder contains files from **CIS 199: Software Development I** and **CIS 200: Software Development II**
 * CIS 199 introduced object-oriented concepts such as the use of classes, methods, encapsulation, and inheritance. The course concentrated on using object-oriented programming to solve simple problems involving input and output. Computer lab sessions reinforced programming concepts. 
 * CIS 200 emphasized object-oriented software development. We studied the object model and applied it to systems development problems. Topics included polymorphism, inheritance, and object interaction. Event-driven programming of graphical user interfaces was introduced. Application areas included data structures, searching, sorting, and databases.
-* Each folder contains zip folders with program and lab files in their entirity. Each lab or program folder contains relevant files, photos of the output or result, and instructions for context. 
+* Each folder contains zip folders with C# program and lab files in their entirity. Each lab or program folder contains relevant files, photos of the output or result, and instructions for context. 
 
 ### System Development
 
@@ -60,4 +60,4 @@ This folder contains files from **CIS 320: Systems Analysis and Design**
 
 This folder contains files from **CIS 411: Web Application Development**
 * CIS 411 introduced dynamic web applications and how they are developed. Topics included the role of client-side and server-side technologies, and use web forms, various server controls and session objects to develop multipage web applications. Gained system development experience with current web development tools and platforms.
-* This folder contains relevant project files for development assignments. In addition, the final project folder contains images from a banking website developed within the course. All relevant files to the project are included. 
+* This folder contains relevant C# and ASP.NET project files for development assignments. In addition, the final project folder contains images from a banking website developed within the course. All relevant files to the project are included. 
