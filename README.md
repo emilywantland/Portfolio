@@ -22,7 +22,7 @@ This folder contains files from **CIS 310: Database Design**
 ### Event-Driven Serverless Computing
 
 This folder contains files from my role as a professional software developer. 
-* The .CS files included are from C# projects I completed from start to finish. They use existing structure and syntax created by the Director of Development. 
+* The .CS files included are from a handful of C# projects I completed from start to finish. They use existing structure and syntax created by the Director of Development. 
 
 ### Information Security
 
