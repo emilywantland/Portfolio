@@ -18,6 +18,7 @@ This folder contains files from **CIS 250 Introduction to Data and Information M
 This folder contains files from **CIS 310: Database Design**
 * CIS 310 provided a solid and practical foundation for the design and implementation of database systems. Emphasis was on relational database models, with significant coverage of basic relational database concepts, normalization, E-R modeling, locking, SQL, and distributed databases. Additional topics included web databases, database security, access control policies and procedures, risk management, and ethical aspects of information handling. Course software included current database tools such as SQL server.
 * Visio files are included that display data models such as entity-relationship models. In additon, documents that display a grasp of database concepts are included.
+* I served as the group leader and assigned sections out to my group members. I submitted all of our assignments on time. 
 
 ### Event-Driven Serverless Computing
 
@@ -28,9 +29,10 @@ This folder contains files from my role as a professional software developer.
 
 This folder contains files from **CIS 480: Introduction to Network Security** and **CIS 481: Introduction to Information Security**
 * CIS 480 covered basic concepts of networking, operations security, protocol features for security, transmission security, packet filtering, TCP wrappers, firewalls, computer viruses, physical protection, legal protection, liability issues, significance of National Security Directive 42, implications of the Computer Security Act, CERT recommendations, assessment of threats and vulnerabilities of systems, security countermeasures, contingency planning, disaster recovery, risk management, and auditing and monitoring, policies and procedures dealing with storage and disposition of sensitive data.
-* CIS 481 covered basic notions of confidentiality, integrity, availability, authentication models, protection models, security kernels, audit, intrusion detection, operational security issues, physical security issues, security system life cycle management, personnel security, policy formation and enforcement, trust modeling, risks and vulnerabilities assessment, basic issues of law and privacy, trade secrets, employee covenants, copyright, database protection, software and hardware validation, verification and certification.
+* CIS 481 covered basic notions of confidentiality, integrity, availability, authentication models, protection models, security kernels, audit, intrusion detection, operational security issues, physical security issues, security system life cycle management, personnel security, policy formation and enforcement, trust modeling, risks and vulnerabilities assessment, basic issues of law and privacy, trade secrets, employee covenants, copyright, database protection, software and hardware validation, verification and certification. 
 * The CIS 480 folder contains various lab and homework files that display an understanding of the aforementioned concepts. 
 * The CIS 481 folder contains group assignments that display a grasp of the concepts and an ability to work as a team. In addition, the final project report and presentation display collaborative proficiency. 
+* I served as the team leader in CIS 481. I assigned and compliled my group member's sections. I selected the project topic, provided research, created the presentation, and edited the report. Editing the report required major rewrites and a multitude of drafts. 
 
 ### Resume
 
@@ -48,6 +50,7 @@ This folder contains files from **CIS 199: Software Development I** and **CIS 20
 This folder contains files from **CIS 420: CIS Development Project**
 * CIS 420 is a continuation of CIS 320, this course focused on the detailed design and implementation phases of the system development life cycle, including user acceptance testing, test planning, design reviews, and change procedures. Specifications created in CIS 320 were used to implement, test, and install a working version of an information system. System deployment emphasizes a web-based architecture. A prototyping approach was taken to develop and test the system in an iterative manner.
 * This folder contains assignment documents and presentations. System files will be added upon completion.
+* My role within the group was Project Manager. I was in charge of correspondence between the professor and my group in addition to completing assignments and assisting the developers. 
 
 ### Systems Analysis and Design
 
