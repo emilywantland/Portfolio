@@ -60,4 +60,4 @@ This folder contains files from **CIS 320: Systems Analysis and Design**
 
 This folder contains files from **CIS 411: Web Application Development**
 * CIS 411 introduced dynamic web applications and how they are developed. Topics included the role of client-side and server-side technologies, and use web forms, various server controls and session objects to develop multipage web applications. Gained system development experience with current web development tools and platforms.
-* This folder contains relevant C# and ASP.NET project files for development assignments. In addition, the final project folder contains images from a banking website developed within the course. All relevant files to the project are included. 
+* This folder contains relevant C#, HTML, CSS, and ASP.NET project files for development assignments. In addition, the final project folder contains images from a banking website developed within the course. All relevant files to the project are included. 
