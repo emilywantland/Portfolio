@@ -24,8 +24,7 @@ This folder contains files from **CIS 310: Database Design**
 
 This folder contains files from my role as a professional software developer. 
 * The .CS files included are from a handful of C# projects I completed from start to finish. They use existing structure and syntax created by the Director of Development. 
-* I develop AWS Lambda Functions in C# as components of an event-based distributed, cloud application.
-• I utilize in-house RESTful API and C# Lambda functions to interact with Podio (A Salesforce-like platform) installations and deliver complex automations and other functionality asynchronously.
+* I develop AWS Lambda Functions in C# as components of an event-based distributed, cloud application. I utilize in-house RESTful API and C# Lambda functions to interact with Podio (A Salesforce-like platform) installations and deliver complex automations and other functionality asynchronously.
 
 ### Information Security
 
