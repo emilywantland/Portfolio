@@ -37,7 +37,7 @@ This folder contains files from **CIS 480: Introduction to Network Security** an
 
 ### Resume
 
-This folder contains an up-to-date copy of my professional resume.
+This folder contains an up-to-date copy of my professional resume. In addition, two cover letters that secured interviews are included. 
 
 ### Software Development
 
