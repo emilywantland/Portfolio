@@ -50,7 +50,7 @@ This folder contains files from **CIS 199: Software Development I** and **CIS 20
 
 This folder contains files from **CIS 420: CIS Development Project**
 * CIS 420 is a continuation of CIS 320, this course focused on the detailed design and implementation phases of the system development life cycle, including user acceptance testing, test planning, design reviews, and change procedures. Specifications created in CIS 320 were used to implement, test, and install a working version of an information system. System deployment emphasizes a web-based architecture. A prototyping approach was taken to develop and test the system in an iterative manner.
-* This folder contains assignment documents and presentations. System files will be added upon completion.
+* This folder contains assignment documents and presentations.
 * My role within the group was Project Manager. I was in charge of correspondence between the professor and my group in addition to completing assignments and assisting the developers. 
 
 ### Systems Analysis and Design
