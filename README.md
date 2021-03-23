@@ -7,6 +7,12 @@ This folder contains files from **CIS 410: Management of Information Systems**
 * Each case includes context on a company, a summary of a problem an organization is facing, a five forces analysis, courses of actions and their repurcusions, and a recommended managerial decision. 
 * An IT Stategic Assessment completed on Brick Bridge Consulting is included. Contents include: The history and purpose of the company, key management and business processes, an assessment on the current IT environment, envisioned IT capabilities, information flows, major project summaries, and consultant recommendations. 
 
+### Computer Forensics
+
+This folder contains files from **CIS 484: Computer Forensics**
+* CIS 484 concepts involved evidence collection, preservation, and presentation in court. Technology tools to analyze files, implications on privacy, ethics, policies, risk management and legal aspects were covered.
+* PDF Project files are included that display proficiency with a variety of tools.
+
 ### Data and Information Management
 
 This folder contains files from **CIS 250 Introduction to Data and Information Management** and **CIS 300: Computer Information Systems**
@@ -20,12 +26,6 @@ This folder contains files from **CIS 310: Database Design**
 * CIS 310 provided a solid and practical foundation for the design and implementation of database systems. Emphasis was on relational database models, with significant coverage of basic relational database concepts, normalization, E-R modeling, locking, SQL, and distributed databases. Additional topics included web databases, database security, access control policies and procedures, risk management, and ethical aspects of information handling. Course software included current database tools such as SQL server.
 * Visio files are included that display data models such as entity-relationship models. In additon, documents that display a grasp of database concepts are included.
 * I served as the group leader and assigned sections out to my group members. I submitted all of our assignments on time. 
-
-### Computer Forensics
-
-This folder contains files from **CIS 484: Computer Forensics**
-* CIS 484 concepts involved evidence collection, preservation, and presentation in court. Technology tools to analyze files, implications on privacy, ethics, policies, risk management and legal aspects were covered.
-* PDF Project files are included that display proficiency with a variety of tools.
 
 ### Event-Driven Serverless Computing
 
