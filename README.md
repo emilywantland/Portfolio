@@ -21,10 +21,10 @@ This folder contains files from **CIS 310: Database Design**
 * Visio files are included that display data models such as entity-relationship models. In additon, documents that display a grasp of database concepts are included.
 * I served as the group leader and assigned sections out to my group members. I submitted all of our assignments on time. 
 
-### Digital Forensics
+### Computer Forensics
 
-This folder contains files from **CIS 484: Digital Forensics**
-* CIS 484 Basic computer forensics concepts involved evidence collection, preservation, and presentation in court. Technology tools to analyze files, implications on privacy, ethics, policies, risk management and legal aspects were covered.
+This folder contains files from **CIS 484: Computer Forensics**
+* CIS 484 concepts involved evidence collection, preservation, and presentation in court. Technology tools to analyze files, implications on privacy, ethics, policies, risk management and legal aspects were covered.
 * PDF Project files are included that display proficiency with a variety of tools.
 
 ### Event-Driven Serverless Computing
