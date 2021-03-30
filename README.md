@@ -15,7 +15,7 @@ This folder contains files from **CIS 484: Computer Forensics**
 
 ### Data and Information Management
 
-This folder contains files from **CIS 250 Introduction to Data and Information Management** and **CIS 300: Computer Information Systems**
+This folder contains files from **CIS 250: Introduction to Data and Information Management** and **CIS 300: Computer Information Systems**
 * CIS 250 provides an introduction to the role of computers and other information technologies in business. Basic concepts covered were computer use with special attention to current technological innovation in social and business environments. Topics included technology and organizational change, telecommunications, privacy in the information age, and business security on the internet. Sessions in the computer lab emphasized business problem solving using critical thinking techniques and commonly used analytical tools.
 * CIS 300 covered the study of computer information systems as they support business processes. Topics included the role of data, data manipulation, database management, information management and decision making, systems analysis and design, historical vs. current methodology in data communications, hardware and software in telecommunications, an overview of automated information systems, policies and procedures needed to protect an information system, and advanced use of spreadsheet and database software.
 * Excel and Access files are included that display data manipulation skills. 
