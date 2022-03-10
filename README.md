@@ -46,7 +46,8 @@ This folder contains files from **CIS 480: Introduction to Network Security** an
 
 ### Resume
 
-This folder contains an up-to-date copy of my professional resume.
+This folder contains an up-to-date copy of my professional resume. 
+* A subfolder includes diplomas from UiPath Training courses.
 
 ### Software Development
 
